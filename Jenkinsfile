@@ -52,9 +52,8 @@ pipeline {
 	}
 	success {
 	sh """
-	echo 'Removing container stack'
-    sudo docker rm -f $(sudo docker container ls -aq)
-    """
+	sudo docker rm -f $(sudo docker container ls -aq)
+        """
 			}
 		}
 	}
