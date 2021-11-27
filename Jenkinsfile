@@ -51,9 +51,9 @@ pipeline {
 	junit 'target/surefire-reports/**/*.xml'
 	}
 	success {
-	sh """
+	sh '''
 	sudo docker rm -f $(sudo docker container ls -aq)
-        """
+        '''
 			}
 		}
 	}
