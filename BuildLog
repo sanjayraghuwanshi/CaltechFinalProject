@@ -1,0 +1,288 @@
+Started by user [8mha:////4PD5KrdFmumjlEZKGzzdiDSbreGST1nS34gg4eaa9NU2AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgZu/dLi1CL9xJTczDwA2jH/8sAAAAA=[0mSanjay Raghuwanshi
+Obtained Jenkinsfile from git https://github.com/sanjayraghuwanshi/CaltechFinalProject.git
+[8mha:////4O1BuaVyjySbzZoXGYnpTd7fj46dCDq7eVZLEviDW0usAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4OfGYUqhk8bIUn+9I/hXYoB0HDhcZ/iCDPfsL7bxm1HBAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4G1QZqSfUGpoyypgFf8NpvymGv5F2NQR2u9thhJp8JwiAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZh/eT83ILSktQifY3cxGIgrakPAHib2iPIAAAA[0mJenkins in /var/lib/jenkins/workspace/FinalProject
+[8mha:////4N/c2A1KNkZuJVBY4PCiGVbwRazHZF96EQJHoXG5BhioAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4HcakSdMQl7+gwlgC8ROi6FaObeWM4YBoW6E3WOeU5LfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4KFp0SYi7uR4w122kgrLRz7UbgcQmLCrDRW/JbFeJYOGAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4CgLvAMJWfHqdR5tFnBHrJiQywi5CWtsIHbh4agHZxaeAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: /usr/bin/git
+No credentials specified
+ > /usr/bin/git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/FinalProject/.git # timeout=10
+Fetching changes from the remote Git repository
+ > /usr/bin/git config remote.origin.url https://github.com/sanjayraghuwanshi/CaltechFinalProject.git # timeout=10
+Fetching upstream changes from https://github.com/sanjayraghuwanshi/CaltechFinalProject.git
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > /usr/bin/git fetch --tags --force --progress -- https://github.com/sanjayraghuwanshi/CaltechFinalProject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 0c98411802cf8fad6943f9a7b7d7c3c3a9584eec (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 0c98411802cf8fad6943f9a7b7d7c3c3a9584eec # timeout=10
+Commit message: "Update Jenkinsfile"
+ > /usr/bin/git rev-list --no-walk 508ad16f8caeb0c5ce2e105bebc286c646db43de # timeout=10
+[8mha:////4OLoIaMO+W7YuDVKQg3qdQTYwVz/QfFLHwy8O6CRAHFVAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4CnB7GSrl+AJDPqfu+HVVoBcQnVT2maKQ5k77kLoswqLAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4Ofl7Ih2GuLW/TmG0m2YEqYN1H1zLTNDCJ6GTr51WsceAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4GuNMOKHXk5lw13uEk9lspVtpYMWG9nMz6UT5ajQqxq6AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4JkGMf4Aiud+ajlUYV5qkRmZzsLlp48qX3dw7+imdLRFAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4LM9NqoZKQ69c+yJD4YPK7GC6/2yHowSeNaV8fEo5B6eAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Declarative: Tool Install)
+[8mha:////4KPnSuzL9NCm0mWontuaS/H44+4tcwyimPXIDNOcNE0bAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBB2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBgq0rvS+AAAA[0m[Pipeline] tool
+[8mha:////4EBK6caSElcWdkTZN/H3bZzEtNRLU3oZqBhc8uOHypFnAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN0uFte2+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4N7mF+PS3bTbdf9xNY41wMnGEI7LGr9IsdPtuOdmLmAsAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihESDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGI1pjGvgAAAA==[0m[Pipeline] tool
+[8mha:////4MZXWGeMaIN9GHDDcIjkbR58Zh1SZNQuATxbOtbcX8AxAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiREGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHJ54PfvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4P0a5DpJu+UF9PXm8VNGp6tWys2KVEQJRrP0tjnW8XTwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIOEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQFudLBjvgAAAA==[0m[Pipeline] }
+[8mha:////4GGEUuuAzBjq28FAIofbnjDF8WGEjmt45eriJ0PVijcYAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi6BCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwhQ7ndf2r3Bl2X69++AAAA[0m[Pipeline] // stage
+[8mha:////4MVQH5NBKF4SMto2ad0JEF0cQhQ+5PFj3mdXcSJV4cUbAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUsiKmrlEWThCSENJG/5ckpZ04EVfjDgQqMeHBsi1Z7/mCKgY4UrCsM9g7jMqxwY82JzZR6C+eJtbRmSnCSN4wYSZB2rRLFZQMLCpKWHFYG1SeokObYMM7eZe1l2jrUwp5O3Aonb7BAwqeyUmG9C1zgO111JHwx/kLgHlIUDZNtv3u86ze+beK58IAAAA=[0m[Pipeline] withEnv
+[8mha:////4KipHcmqulqYQeTTfUwwIvjZ1kKhKBTGFmg+qdfPbWkIAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUWBFT1ygLJwhNCGmj/8tPSjtxIq7GHWipxIQHy7ZkvdcbishwInaisdh6jLUXXejdlMRA3F4DDaKhi6gJIwUrlB0UGVstVVGysCjLYSVhbbEOFD26BBvZ6Icug0ZXnhNP21FC7s0dnpDJiZw0p28ZGba33kTCH+cvAMYuQX7Yzbafn8UHbGnGmsIAAAA=[0m[Pipeline] {
+[8mha:////4LIcTlGE7VBK9k5obQzjVqy7F0xe/vXKbdm7I/w2xdk3AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] stage
+[8mha:////4EpsBKosHASZI88ObxSqpEQp31OQ4KLo0wCXkvKhQ8U9AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUKiNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPpnFij8IAAAA=[0m[Pipeline] { (Checkout the code)
+[8mha:////4GrUBV4ckYnchPns4ckSLKllLVp1kAjkJNYLAF/8DRFrAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBrANZ3i+AAAA[0m[Pipeline] tool
+[8mha:////4OlHDpw6XpjsxDQfqm5t18ZrQnQ/uFr9v4fa+aQm7LPBAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigagQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN/E8fGG+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4BQOUFQL2bZZb5qTPImvShujcc3/TKlh4yJVD3+xa5alAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAEyb1FKvgAAAA==[0m[Pipeline] tool
+[8mha:////4Gn6sfxpXLQc02jlCHa1cHzyzWOkHRojPWRuGRFyBKv3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiQUGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAFzXkpTvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4PYNBbja5PfzWJb25cCkwdSy+U3ephK0Akq10/f1LD96AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUggUJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAClXiskwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4KvNwgTEr7Y7KT2llhZurWtunWR/qNgnSsLPkNx/tvweAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] {
+[8mha:////4JmCkyBh+omOOGXLweirKc11qPrTsQTBCLHUc2XrUTx+AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] git
+The recommended git tool is: /usr/bin/git
+No credentials specified
+ > /usr/bin/git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/FinalProject/.git # timeout=10
+Fetching changes from the remote Git repository
+ > /usr/bin/git config remote.origin.url https://github.com/sanjayraghuwanshi/CaltechFinalProject.git # timeout=10
+Fetching upstream changes from https://github.com/sanjayraghuwanshi/CaltechFinalProject.git
+ > /usr/bin/git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > /usr/bin/git fetch --tags --force --progress -- https://github.com/sanjayraghuwanshi/CaltechFinalProject.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > /usr/bin/git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 0c98411802cf8fad6943f9a7b7d7c3c3a9584eec (refs/remotes/origin/master)
+ > /usr/bin/git config core.sparsecheckout # timeout=10
+ > /usr/bin/git checkout -f 0c98411802cf8fad6943f9a7b7d7c3c3a9584eec # timeout=10
+ > /usr/bin/git branch -a -v --no-abbrev # timeout=10
+ > /usr/bin/git branch -D master # timeout=10
+ > /usr/bin/git checkout -b master 0c98411802cf8fad6943f9a7b7d7c3c3a9584eec # timeout=10
+Commit message: "Update Jenkinsfile"
+[8mha:////4Ie1MhnBSHR9FqAbOHsGpKVbqKCGQUczfpcLGg8tkR5ZAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AFSjtgYvgAAAA==[0m[Pipeline] }
+[8mha:////4ITXyPJ50ZycvhTipMOmJ0+rL2ypHpM9tyXRArwHCZhzAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9qzEvpvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4AhBGKrlGdhUGq5Ps/36ghc5MVAK0S1dQA9Pn9/6zsvOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSImoaC03vMAkh3Fi3Rnbwal4EV/jD1hEomKL1c4283rDOgY4cjBiQBotxc4K7yZTlsgcxqvjLAa+iI4pskOhMCvu8bSg4oSwpKphJWGD1DmOlkyCrRz0QzdOk2nOKZTvIKG2/R2eUMliTjqkL8wBdrepj0w/z18BzN4nqNu21L79AEfGxbW+AAAA[0m[Pipeline] }
+[8mha:////4AdKqaT+PysjxEZxDskxj9Vx9t2ODurl3Z9K3XUiBGDlAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBTpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOX+kKuuP2nGx9++AAAA[0m[Pipeline] // stage
+[8mha:////4FTZ2VZOfXo0hwiKXzRoeUNjP9xqZHnuKKFtfqFhgjPhAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUgJhQJ9aoCycITQhJo/9LkpJOnIircQcClZjwYNmWrPd8QRU8NOQ1swp7g6EzbHCjzokl8v3FUWKWzqwjDOQUa1VqSarjXFuKCmYVJSw4LBV2joJBHWHFrbiL2gnU9Sn6vB04lEbe4AEFz+QofPyWycP6OspA+OP8BcA0RCi3m2y7/edZvQEO/65mwgAAAA==[0m[Pipeline] stage
+[8mha:////4AML2MOEbcHdS3b3gUKu6kqQ+Rk147B97sRvVULLAU5cAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] { (Code Compile)
+[8mha:////4FukzQg1AjOEr6MOP7E3V+eBvGyeCz6hFQA5MhczgKAhAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIEGBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9GxrMvgAAAA==[0m[Pipeline] tool
+[8mha:////4PrskDUjmPB1GJAjLVLYF6N22gf4A1uNjUsvm0GHN+W3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q2yB4JLvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4GJMJ2CsmVgdyvuf+t4umaXjPFEaia+LA1LVCm3b5jB0AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICEhRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q3zNplSvgAAAA==[0m[Pipeline] tool
+[8mha:////4JnIn/6GsCjGOqboJDleKuF9oqTABxOnJZ2bwTlPDknuAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw8/mxSGvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4JO+KtrR10nbDf14yL5HN5RCh0EJ9aTqqWetbDNMNqV6AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCMSCOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK53WfbbT7P6g162gaKwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4JzFdwa4vClooYS5WUiydxv0nxvK7O0NvfIlK5i435GXAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAdhUMVHCAAAA[0m[Pipeline] {
+[8mha:////4GQXo4jyxrbFrL8sxpVhZn8WN7j0gnYby43AnagtKtD9AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAR2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBvbls1O+AAAA[0m[Pipeline] sh
++ mvn compile
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36mcom.simplilearn.example:CaltechDevOps[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding CaltechDevOps 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mCaltechDevOps[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mCaltechDevOps[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /var/lib/jenkins/workspace/FinalProject/target/classes
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  3.094 s
+[[1;34mINFO[m] Finished at: 2021-11-27T16:09:58Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4DzCN2wOwmRb817F3UEsdikKoGFzGDkgnaCCPDhEwMfkAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioXSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMn7BGVdf2r/BmFfOky+AAAA[0m[Pipeline] }
+[8mha:////4BTSqcS4/2rGL09duEsaemU3vhvmcrTvTmhkmKv/CX3RAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN37dbx6+AAAA[0m[Pipeline] // withEnv
+[8mha:////4JWKLTCAWmLoIIA/wGtZnsOzDp9fHMV8QKBcPJ4XJqueAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSgNIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QG0rN5JvgAAAA==[0m[Pipeline] }
+[8mha:////4LO+F6MNxmfcXYZk3thH43hUxtaIQOE+p6QRhwNP8OW7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAKJAqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDuDrm2+w+rLosbvgAAAA==[0m[Pipeline] // stage
+[8mha:////4GA+/1OfG8BgiSYWIpIa0UkAFSpJjrHVLU1geeNAo1EOAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUIAYk1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHK7Sbbbv95Vm9e0pcfwgAAAA==[0m[Pipeline] stage
+[8mha:////4DCePJbLot8pGd7VB8mYGCWwF4ObiYPQwZrs0GeQb9XVAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YQAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD56au0DCAAAA[0m[Pipeline] { (Packaging)
+[8mha:////4BhnbwyxRUS3iNO8jVUmCicY7Su+3wTaDDc11/3K3szLAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCAQVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw/4iFt7vgAAAA==[0m[Pipeline] tool
+[8mha:////4HXKuRct5E+5+U4jzzvC96ULbK3fBZuoEZvM+q3UMQ1AAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJCgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAublAYr4AAAA=[0m[Pipeline] envVarsForTool
+[8mha:////4CoAiuxgbas9NfQqmKC4bUb7UPPTOFb9buT6eZlp2spcAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiISgQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANEcrdIdd+O3wAeuptSb4AAAA=[0m[Pipeline] tool
+[8mha:////4FLjaHRoFPqGaumJS27U3wkWQllKBshr6h6LVcnMwdwjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAAVCqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKYhQrk75Npvhw8723ZQvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4JnNtL+B0GOB+2+cpPv9hPAaBmTsgAJfLOALxy6UW6g4AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KQNCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFs9tl2zedZvQE0XdybwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4GNU801HyP7FDH3BsTqw5cgat1jdSxwlH35jggx6MHUSAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoh0oRNiYo26cILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMYAJwqGO42dxdha3vvRzIlnCt3NU+aOrrwljOQ1b3RuSOnzWhtKGlYVDDYCthpbT9GiSbATTj5k5SWa6pLCvB0FMKsGeEIhZnKSIX3LFGB/H1Uk/HH+AmDqE7D6sFi9PMsP+Y+xAMIAAAA=[0m[Pipeline] {
+[8mha:////4GOfTOfnhZHYrPLmrG2TcaBRLTdDpOu7jPlv+rA/3fYLAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSxcaxsmVoPAEmiBDmfwJEUnkir+YdRDNj5RY7+7Z5zxesY4AjBc2swsFg7AzzbtJlsUxhuDrKzNKFdYSRnGJCZUG9Oi0oKClYUtWw4rBR2DmKBnWCLbfyLhsnUTfnFMp34FCbfoQHVLyYkwzpC3OA3W3qI+HP81cAs09Qt+2n9v4NlEULJr4AAAA=[0m[Pipeline] sh
++ mvn package
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m---------------< [0;36mcom.simplilearn.example:CaltechDevOps[0;1m >----------------[m
+[[1;34mINFO[m] [1mBuilding CaltechDevOps 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mCaltechDevOps[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mCaltechDevOps[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mCaltechDevOps[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] skip non existing resourceDirectory /var/lib/jenkins/workspace/FinalProject/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mCaltechDevOps[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /var/lib/jenkins/workspace/FinalProject/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mCaltechDevOps[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running com.simplilearn.example.CaltechDevOps.[1mCaltechDevOpsApplicationTests[m
+16:10:07.571 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+16:10:07.607 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+16:10:07.692 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.simplilearn.example.CaltechDevOps.CaltechDevOpsApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+16:10:07.720 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.simplilearn.example.CaltechDevOps.CaltechDevOpsApplicationTests], using SpringBootContextLoader
+16:10:07.730 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.simplilearn.example.CaltechDevOps.CaltechDevOpsApplicationTests]: class path resource [com/simplilearn/example/CaltechDevOps/CaltechDevOpsApplicationTests-context.xml] does not exist
+16:10:07.740 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.simplilearn.example.CaltechDevOps.CaltechDevOpsApplicationTests]: class path resource [com/simplilearn/example/CaltechDevOps/CaltechDevOpsApplicationTestsContext.groovy] does not exist
+16:10:07.742 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.simplilearn.example.CaltechDevOps.CaltechDevOpsApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:10:07.745 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.simplilearn.example.CaltechDevOps.CaltechDevOpsApplicationTests]: CaltechDevOpsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:10:07.825 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.simplilearn.example.CaltechDevOps.CaltechDevOpsApplicationTests]
+16:10:07.941 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/var/lib/jenkins/workspace/FinalProject/target/classes/com/simplilearn/example/CaltechDevOps/CaltechDevOpsApplication.class]
+16:10:07.942 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.simplilearn.example.CaltechDevOps.CaltechDevOpsApplication for test class com.simplilearn.example.CaltechDevOps.CaltechDevOpsApplicationTests
+16:10:08.089 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.simplilearn.example.CaltechDevOps.CaltechDevOpsApplicationTests]: using defaults.
+16:10:08.095 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+16:10:08.118 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+16:10:08.121 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/TransactionDefinition]
+16:10:08.127 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+16:10:08.128 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2ea41516, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3a44431a, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3c7f66c4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@194bcebf, org.springframework.test.context.support.DirtiesContextTestExecutionListener@17497425, org.springframework.test.context.event.EventPublishingTestExecutionListener@f0da945, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4803b726, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@ffaa6af, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@53ce1329, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@316bcf94, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6404f418, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3e11f9e9]
+16:10:08.147 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@67f639d3 testClass = CaltechDevOpsApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@6253c26 testClass = CaltechDevOpsApplicationTests, locations = '{}', classes = '{class com.simplilearn.example.CaltechDevOps.CaltechDevOpsApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4b14c583, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1534f01b, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1d119efb, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4c9f8c13, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4b0b0854, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@96532d6], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+16:10:08.182 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[DefaultTestContext@67f639d3 testClass = CaltechDevOpsApplicationTests, testInstance = com.simplilearn.example.CaltechDevOps.CaltechDevOpsApplicationTests@3012646b, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@6253c26 testClass = CaltechDevOpsApplicationTests, locations = '{}', classes = '{class com.simplilearn.example.CaltechDevOps.CaltechDevOpsApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@4b14c583, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@1534f01b, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@1d119efb, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4c9f8c13, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4b0b0854, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@96532d6], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]].
+16:10:08.276 [main] DEBUG org.springframework.boot.ApplicationEnvironment - Activating profiles []
+16:10:08.290 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.0)
+
+2021-11-27 16:10:08.852  INFO 13531 --- [           main] c.s.e.C.CaltechDevOpsApplicationTests    : Starting CaltechDevOpsApplicationTests using Java 1.8.0_292 on ip-172-31-14-77 with PID 13531 (started by jenkins in /var/lib/jenkins/workspace/FinalProject)
+2021-11-27 16:10:08.854  INFO 13531 --- [           main] c.s.e.C.CaltechDevOpsApplicationTests    : No active profile set, falling back to default profiles: default
+2021-11-27 16:10:09.917  INFO 13531 --- [           main] c.s.e.C.CaltechDevOpsApplicationTests    : Started CaltechDevOpsApplicationTests in 1.626 seconds (JVM running for 3.854)
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.016 s - in com.simplilearn.example.CaltechDevOps.[1mCaltechDevOpsApplicationTests[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 1, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.0:jar[m [1m(default-jar)[m @ [36mCaltechDevOps[0;1m ---[m
+[[1;34mINFO[m] Building jar: /var/lib/jenkins/workspace/FinalProject/target/CaltechDevOps-0.0.1-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.6.0:repackage[m [1m(repackage)[m @ [36mCaltechDevOps[0;1m ---[m
+[[1;34mINFO[m] Replacing main artifact with repackaged archive
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  10.484 s
+[[1;34mINFO[m] Finished at: 2021-11-27T16:10:12Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[8mha:////4HkIQDz7SdJIuo8Q2mKkBcUwq4tLnXDQyi956K3OD+ikAAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeghSZSwcK1uGxhNggghh/idAJJUn8mreQTQzVm6xs2+b93zBOgY4UtDMKhwMxs4w7yZdFssUhqujzCxdWEcYySkmVBbUq9OCgpKCJVUNKw4bhZ2jaFAn2HIr77JxEnVzTqF8Bw616Ud4QMWLOcmQvjAH2N2mPhL+PH8FMHufoG73n2rfmYKm674AAAA=[0m[Pipeline] }
+[8mha:////4F95iqOtYPzXFMkNHIrP9IG2rMEX4bbOXXqksQ32fXx3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFDu9p/avgHaAPdtvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4HyOw2DVpF9LggnVz4TT2xhqdPmTridy2O9++H+n/ZjFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSQBEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygPda59/QGDngHBvgAAAA==[0m[Pipeline] }
+[8mha:////4OnI44Nyt8Irceqd6tsHZCFn3hPxnDsyZq3PQYbeeeRMAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgRASSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAQOXhoL4AAAA=[0m[Pipeline] // stage
+[8mha:////4KUlo586ep9kzOsq7qFQYYlDkYBAkVNHDzeWMNmQytDpAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZWBBTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKHcNdn2zedZvQG/kgevwgAAAA==[0m[Pipeline] stage
+[8mha:////4BbbJDcQONKJV69zDd9N6RfZSnkyzcVg3eHSCuFfgY3kAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD27blSrCAAAA[0m[Pipeline] { (Docker build)
+[8mha:////4LVUyzC4n7QIWAh2/E8GVpyQhHdQlVDn0XKQ0eK4bxM4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIigUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAHlNhISvgAAAA==[0m[Pipeline] tool
+[8mha:////4M7WFbUgjpktV6whn7YRjMJ8jHKYkdInazMbcU5qJ8ILAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUSDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAEioFNdvgAAAA==[0m[Pipeline] envVarsForTool
+[8mha:////4GT4vc2yNEXVvB5CHsGLaug8rlSPqM29CMolJ1HjJxwxAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiIUGDqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAFjkUhEvgAAAA==[0m[Pipeline] tool
+[8mha:////4AD5Tsu6XM2qC2XibGAATopOeK2ePKmoSoYBkJQZLO7XAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUaRBVLRWGl5gEmPsWHeO7eBUvIiv8QcCkajYYrWzzTxfsI4Bjhw0WkW9odga9G7U88LMob86zmj5gi1TZKewUbnhTp0WbDgpWFKUsBKwUdQ6joZ0gq2w8i4rJ0lX5xTm7yCgNN0ADyjEbE4ypC9MAXa3sYtMP89fAUw+QVnvP1X7N6DCZW++AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4CiJFW7eySCFAzah0eFvJWtwVDrOaDyQKBYFV131IRs3AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLk+91sh/lZfADcLLrjwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4GnQ8YL5sWLGHAQn6nL+E0SvPrt5xa24jItRWAw74xdnAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0AyTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAUsyu2PCAAAA[0m[Pipeline] {
+[8mha:////4B71KeiHfvh68wko0y/B0KCj/Pk0F3lAJ+TRaCNpCfP4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSIRCiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBiGBjUy+AAAA[0m[Pipeline] sh
++ docker build -t sanjayraghuwanshi/caltechfinalproject:latest .
+Sending build context to Docker daemon  16.99MB
+Step 1/5 : FROM tomcat:8.0-alpine
+ ---> 624fb61775c3
+Step 2/5 : LABEL maintainer=”raghu1c.sanjay@gmail.com”
+ ---> Using cache
+ ---> e80b77bc1958
+Step 3/5 : ADD tomcat-users.xml /usr/share/tomcat8/etc/tomcat-users.xml
+ ---> 1ab28980d495
+Step 4/5 : ADD target/CaltechDevOps-0.0.1-SNAPSHOT.jar /usr/local/tomcat/webapps/
+ ---> 09feee4fd587
+Step 5/5 : EXPOSE 8080
+ ---> Running in d2a84744ef7d
+Removing intermediate container d2a84744ef7d
+ ---> ac1a4d4d4519
+Successfully built ac1a4d4d4519
+Successfully tagged sanjayraghuwanshi/caltechfinalproject:latest
+[8mha:////4HacqYR/7aU5DcwUo8GfMYgKwnuOPi6KzXJA8ave3dN2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCBUgoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AF2jKA0vgAAAA==[0m[Pipeline] }
+[8mha:////4K8oFqm/GPDsRKbyr3raDqmOYfvoocAlIyZepRWFaP+FAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiGlIgqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJyjrfa5D/QFCQkNvvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4JL2Nes7bjhTI7OC9RoorGkMtE1JjqoZDHg04RM4WenjAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIipYACUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkF5qHPt6w9jxL2ZvgAAAA==[0m[Pipeline] }
+[8mha:////4OIO+VnjtNjVxM4reGCYZo6CUvnE0PtrQRSEWPV1XYFsAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihAQFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysMu1334AfEboy74AAAA=[0m[Pipeline] // stage
+[8mha:////4Hv4IgbD29OYn1mhD6LwNkpNdrZR+edobkMQ0zUTN+9sAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUICQG1Ik16sIJQhNC0uj/kqSkEyfiatyBQCUmPFi2Jes9X1AFDw15zazC3mDoDBvcqHNiiXx/cZSYpTPrCAM5xVqVWpLqONeWooJZRQkLDkuFnaNgUEdYcSvuonYCdX2KPm8HDqWRN3hAwTM5Ch+/ZfKwvo4yEP44fwEwDRHK7Sbbfvd5Vm+4CL1ZwgAAAA==[0m[Pipeline] stage
+[8mha:////4BT6MaH3OXtQTPTgrOD3Vb4nMXti+u99vr/Fm6pEtB3uAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0ATEgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LD08AFXvCAAAA[0m[Pipeline] { (Docker Push)
+[8mha:////4A2W74jdZhn5UOFzBFK9b9R8AFic4a6rm+e7wiO7VdEcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSAQWiSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyv32U7vwBoeWqme+AAAA[0m[Pipeline] tool
+[8mha:////4IOYZ993hbdotobnHkYSehiB96agPNlmc9QSWueibEmOAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSoRSIitZKwwtMYowd686xHZyKF/E1/kAgEhVbrHa2mecL1jHAkYNGq6g3FFuD3o16Xpg59FfHGS1fsGWK7BQ2KjfcqdOCDScFS4oSVgI2ilrH0ZBOsBVW3mXlJOnqnML8HQSUphvgAYWYzUmG9IUpwO42dpHp5/krgMknKOv9p2r/BsansX6+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4APyrTmKbHl3RN8SxtLxLOxLrmTq2HerLAVjBl5DXxO5AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIZAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO62n9qHNwm7Kfm+AAAA[0m[Pipeline] tool
+[8mha:////4MSc52yOZfhthFiwyNGVvr91lc3LaCm6KI+d/+ft9V00AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIYQQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUO62n9qHN0iKMuC+AAAA[0m[Pipeline] envVarsForTool
+[8mha:////4Fkt0Lo1sq42TTLkNvp6L/bsh5kZBiq5DYObADXdPei7AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoiUBYGEOrFGXThBaEJIGv1fkpR04kRcjTsQqMSEB8u2ZL3nC6rgoSGvmVXYGwydYYMbdU4ske8vjhKzdGYdYSCnWKtSS1Id59pSVDCrKGHBYamwcxQM6ggrbsVd1E6grk/R5+3AoTTyBg8oeCZH4eO3TB7W11EGwh/nLwCmIUK522bbbz7P6g3VPh4cwgAAAA==[0m[Pipeline] withEnv
+[8mha:////4HxbvkcVkGy7m6tD11cimYWhK84IEECZXcuffOmB/TpRAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycogUNiTE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5AfdrPt52fxAUPegdTCAAAA[0m[Pipeline] {
+[8mha:////4AXs8wWqmbsaU/PViF248v0CCOrAOoByUZWFHtUB0LeFAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUMCEhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYL8sJttPz+LDy1zm5PCAAAA[0m[Pipeline] withCredentials
+Masking supported pattern matches of $dockerHubPassword
+[8mha:////4HIatoSs8U02He4/9Zh7I5JbjH8HWHoOESATNwxTYbKCAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUggUJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLkh91s+/lZfACJxiXBwgAAAA==[0m[Pipeline] {
+[8mha:////4NufW0J3cPq4A8pGOvxuNTVnUEJ4M8yaQWxrGw7DoIx5AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSQIGEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK//dQuvAGulDDkvgAAAA==[0m[Pipeline] sh
+Warning: A secret was passed to "sh" using Groovy String interpolation, which is insecure.
+		 Affected argument(s) used the following variable(s): [dockerHubPassword]
+		 See https://jenkins.io/redirect/groovy-string-interpolation for details.
++ docker login -u sanjayraghuwanshi -p ****
+WARNING! Using --password via the CLI is insecure. Use --password-stdin.
+WARNING! Your password will be stored unencrypted in /var/lib/jenkins/.docker/config.json.
+Configure a credential helper to remove this warning. See
+https://docs.docker.com/engine/reference/commandline/login/#credentials-store
+
+Login Succeeded
++ docker push sanjayraghuwanshi/caltechfinalproject:latest
+The push refers to repository [docker.io/sanjayraghuwanshi/caltechfinalproject]
+80d5629d887c: Preparing
+08b19d6b70ea: Preparing
+0136a6a85859: Preparing
+98a0db77a14c: Preparing
+9072514c7af0: Preparing
+f6146a44a7d3: Preparing
+0c3170905795: Preparing
+df64d3292fd6: Preparing
+f6146a44a7d3: Waiting
+0c3170905795: Waiting
+df64d3292fd6: Waiting
+98a0db77a14c: Layer already exists
+9072514c7af0: Layer already exists
+f6146a44a7d3: Layer already exists
+0c3170905795: Layer already exists
+df64d3292fd6: Layer already exists
+0136a6a85859: Layer already exists
+80d5629d887c: Pushed
+08b19d6b70ea: Pushed
+latest: digest: sha256:ff228491eabad2958e3fed0084ff78c1b5b18e8f4dfb02faa14369e36666bb23 size: 1993
++ docker run -d -p 127.0.0.1:8081:8080 sanjayraghuwanshi/caltechfinalproject:latest
+0b80aa42c49a8b5007da1dce32f049bfd0dd2eeb6be3e156e6d1a7b3f7173aaf
+[8mha:////4Md15o4yQTOagxGtI5vJDMecEyjfVAR4vL8YYzjIQGq2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSICQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyv/vU9g0qmXSbvgAAAA==[0m[Pipeline] }
+[8mha:////4IV5+flfzCeZVOLobH0lkhpEGpn2d7Cj0zDJJDuDutvPAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiUSAkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyv/vU9g0S2+dqvgAAAA==[0m[Pipeline] // withCredentials
+[8mha:////4HHNnEOZQyWMe03juoirC/PJWJ42gmYxELJKlkuuosrbAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiKpAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcr97lPbNw1Zsji+AAAA[0m[Pipeline] }
+[8mha:////4NNCFKhRz8tB9e2GtlCjVkkcbpTOfWERiYkJUQYSjcV+AAAAox+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCGQlR0VppeIFJjLFj3Tm2g1PxIr7GHwhEomKL1c4283zBOgY4ctBoFfWGYmvQu1HPCzOH/uo4o+ULtkyRncJG5YY7dVqw4aRgSVHCSsBGUes4GtIJtsLKu6ycJF2dU5i/g4DSdAM8oBCzOcmQvjAF2N3GLjL9PH8FMHmfoKzrT+3fTtvjvr4AAAA=[0m[Pipeline] // withEnv
+[8mha:////4CQoYpkOTracPYKPrq/MyfR8DzVh6V9/F98UFQIHveG4AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSIUAoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Iddu+wGr4E2CvgAAAA==[0m[Pipeline] }
+[8mha:////4HLl+ESFKDuhN55R7TxGqNkAZHQ/2egN2cKYMmpCh/L1AAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJCgYQQSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4TysM21330AQYoydL4AAAA=[0m[Pipeline] // stage
+[8mha:////4PwKsuqmIBBwary26kQFUOLuTSlLVFm0BMP8Js9OFozSAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKi0CFEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOWhzrWvPy5Zc7K+AAAA[0m[Pipeline] }
+[8mha:////4HBBsmV4WaLD5Nhuv9Cl8Pv+W1fi31LweGU53FcmHkPcAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJB6RCiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOWhzlXvPxYb4EO+AAAA[0m[Pipeline] // withEnv
+[8mha:////4DGm04jKyvORftDGRtPhleIf9cIp3CD70XsrofyZ+ggbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiiAohqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAczeJygP+1x1/QHmq5bUvgAAAA==[0m[Pipeline] }
+[8mha:////4Opa/jimnXJN6ZAbpW7v8RMMXJovnXW22KBDW64Xj4YiAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICEg1CqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFAe9rl22w/Iq5S+vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4KGuMEgcRzlNGQ+NdGZZr8jLTnOXGQ2ttIx0PYOB2I+ZAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMJpoECIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfL8TZNsPmCb29r0AAAA=[0m[Pipeline] }
+[8mha:////4HCOi/P2SFjsvBtPN6fFTskqJ7tBJ69+sBLVy/N1FMh+AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIpkJAQoqK10vACkxjjxLoL9oWk4kV8jT8QEYmKrXammdcbyxRx5OhUY6n1lCqvutC76amBY3sNPKiGL6piShysKu1Qcm1PM5YsFvOyHAuNlaUqcPLkBGvdmIcpgiFXnCVO7qCR+/qOJzI9lcVE+cIYsbn1dWL6df4GMHadIN/vBNn2A+vJMi+9AAAA[0m[Pipeline] // node
+[8mha:////4IJ2XxJECb4inHzTaxlDhbag7EnmWQ2yh8EkpPlqzgy0AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRaBBCVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5PudINt+AM3QVWW9AAAA[0m[Pipeline] End of Pipeline
+Finished: SUCCESS
