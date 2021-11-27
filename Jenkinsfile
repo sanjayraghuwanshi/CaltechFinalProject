@@ -50,5 +50,11 @@ pipeline {
 	always {
 	junit 'target/surefire-reports/**/*.xml'
 	}
-	}
+	success {
+	sh """
+	echo "Removing container stack"
+        sudo docker rm -f $(sudo docker container ls -aq)
+           """
+			}
+		}
 	}
