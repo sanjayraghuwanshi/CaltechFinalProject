@@ -41,7 +41,7 @@ pipeline {
 			sh """
 			docker login -u ${env.dockerHubUser} -p ${env.dockerHubPassword}
 			docker push sanjayraghuwanshi/caltechfinalproject:latest
-			docker run -p 127.0.0.1:8081:8080 sanjayraghuwanshi/caltechfinalproject:latest
+			docker run -d -p 127.0.0.1:8081:8080 sanjayraghuwanshi/caltechfinalproject:latest
 			"""		}
 				}
 			}
